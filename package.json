@@ -1,0 +1,7 @@
+{
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-byo-jslint": "git+https://github.com/benquarmby/gulp-byo-jslint.git"
+  }
+}

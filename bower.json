@@ -1,0 +1,28 @@
+{
+  "name": "ko-bindings",
+  "main": "index.js",
+  "authors": [
+    "Ben Quarmby"
+  ],
+  "description": "A binding management interface for Knockout.",
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "knockout"
+  ],
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/benquarmby/ko-bindings",
+  "ignore": [
+    "**/.*",
+    "package.json",
+    "gulpfile.js",
+    "node_modules",
+    "bower_components",
+    "submodules",
+    "test",
+    "tests"
+  ]
+}
