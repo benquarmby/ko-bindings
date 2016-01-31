@@ -15,7 +15,7 @@
    limitations under the License.
 !*/
 
-/*jslint browser*/
+/*jslint node, browser*/
 /*global define, ko*/
 
 (function (factory) {

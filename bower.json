@@ -18,11 +18,13 @@
   "ignore": [
     "**/.*",
     "package.json",
-    "gulpfile.js",
-    "node_modules",
     "bower_components",
+    "node_modules",
     "submodules",
-    "test",
+    "tasks",
     "tests"
-  ]
+  ],
+  "devDependencies": {
+    "knockout": "^3.4.0"
+  }
 }

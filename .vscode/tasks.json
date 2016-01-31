@@ -9,9 +9,19 @@
 {
     "command": "node",
     "isShellCommand": true,
-    "args": ["./node_modules/gulp/bin/gulp.js"],
-    "tasks": [{
-        "taskName": "lint",
-        "isTestCommand": true
-    }]
+    "args": [
+        "./node_modules/gulp/bin/gulp.js",
+        "--gulpfile",
+        "./tasks/gulpfile.js"
+    ],
+    "tasks": [
+        {
+            "taskName": "lint",
+            "isBuildCommand": true
+        },
+        {
+            "taskName": "test",
+            "isTestCommand": true
+        }
+    ]
 }
