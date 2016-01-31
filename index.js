@@ -43,7 +43,7 @@
 
         function createCallback(config, method) {
             return function (element, valueAccessor, allBindings, viewModel, bindingContext) {
-                config[method]({
+                return config[method]({
                     element: element,
                     valueAccessor: valueAccessor,
                     allBindings: allBindings,
